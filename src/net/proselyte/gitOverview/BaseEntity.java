@@ -16,7 +16,4 @@ public class BaseEntity {
                 "id=" + id +
                 '}';
     }
-    public boolean isNew() {
-         return  (this.id == 0);
-    }
 }
